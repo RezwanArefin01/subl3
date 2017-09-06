@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[freopen("${1}.in", "r", stdin);
+freopen("${1}.out", "w", stdout);${2}
+]]></content>
+	<tabTrigger>inout</tabTrigger>
+	<scope>source.c++</scope> 
+</snippet>
