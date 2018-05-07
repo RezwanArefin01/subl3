@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[inline int Pow(int a, int p) {
+	int ret = 1; while(p) {
+		if(p & 1) ret = (ll) ret * a % mod;
+		a = (ll) a * a % mod;
+		p >>= 1;
+	} return ret;
+}
+]]></content>
+	<tabTrigger>snpow</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
