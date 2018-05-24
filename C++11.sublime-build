@@ -7,7 +7,7 @@
  [
    {
      "name": "Run",
-     "cmd":["bash", "-c", "g++ -std=c++11 -O2 -DLOCAL_TESTING '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}' | head -n 200"]
+     "cmd":["bash", "-c", "g++ -std=c++11 -O2 -DLOCAL_TESTING '${file}' -o '${file_path}/${file_base_name}' && timeout --no-info-on-success --detect-hangups -m 1000000 -t 10 '${file_path}/${file_base_name}'"]
    }
  ]
 }
