@@ -6,3 +6,5 @@ cd ~/.config/sublime-text-3/Packages/
 git clone https://github.com/RezwanArefin01/subl3.git 
 mv subl3/ C++/
 ```
+
+Copy timeout script to /bin
