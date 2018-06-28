@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[int BIT[N]; 
+void update(int x, int v) {
+	while(x < N) BIT[x] += v, x += x & -x; 
+}
+ll read(int x) {
+	ll ret = 0;
+	while(x > 0) ret += BIT[x], x -= x & -x; 
+	return ret; 
+}${1}]]></content>
+	<tabTrigger>snbit</tabTrigger>
+	<scope>source.c, source.c++</scope> 
+</snippet>

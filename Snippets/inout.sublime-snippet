@@ -3,5 +3,5 @@
 freopen("${1}.out", "w", stdout);${2}
 ]]></content>
 	<tabTrigger>inout</tabTrigger>
-	<scope>source.c++</scope> 
+	<scope>source.c++, source.c</scope> 
 </snippet>
