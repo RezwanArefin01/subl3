@@ -2,8 +2,6 @@
 	<content><![CDATA[#include <bits/stdc++.h>
 using namespace std;
 
-#pragma GCC diagnostic warning "-std=c++11"
-
 typedef long long ll;
 typedef pair<int, int> ii; 
 
