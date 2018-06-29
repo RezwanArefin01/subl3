@@ -9,3 +9,9 @@ mv subl3/ C++/
 cd C++/
 sudo cp timeout /bin
 ```
+
+Precompile `bits/stdc++.h` located in `/usr/include/c++/<g++ version>/x86_64-pc-linux-gnu/` using this - 
+
+```
+g++ -DLOCAL -O2 stdc++.h
+```

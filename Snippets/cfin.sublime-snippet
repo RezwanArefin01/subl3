@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[#ifdef LOCAL_TESTING
+	<content><![CDATA[#ifdef LOCAL
 	freopen("in", "r", stdin);
 #endif
 ]]></content>
