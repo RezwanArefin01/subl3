@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[#include <bits/stdc++.h>
+	<content><![CDATA[///usr/bin/g++ -O2 $0 -o ${0%.cpp} && echo "----------" && ./${0%.cpp}; exit;
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long ll;
